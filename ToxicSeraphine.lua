@@ -127,7 +127,6 @@ Champion.Spells.E = Spell.Skillshot({
   Radius = 70,
   EffectRadius = 70,
   Delay = 0.25,
-  Collisions = { Heroes = true, Minions = true, WindWall = true },
   UseHitbox = true,
   Type = "Linear"
 })
@@ -139,7 +138,6 @@ Champion.Spells.R = Spell.Skillshot({
   Speed = 1600,
   Radius = 160,
   Delay = 0.5,
-  Collisions = { Heroes = true, Minions = true, WindWall = true },
   UseHitbox = true,
   Type = "Linear",
 })
