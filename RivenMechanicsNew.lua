@@ -769,7 +769,7 @@ function BaseStrucutre:Waveclear(postAttack)
                 return
             end
             if CastEJungle and spells.E:IsReady() and spells.E:IsInRange(minionFocus) then
-                spells.E:Cast()
+                spells.E:Cast(minionFocus)
                 return
             end
         else
@@ -782,7 +782,7 @@ function BaseStrucutre:Waveclear(postAttack)
                 return
             end
             if CastEJungle and spells.E:IsReady() and spells.E:IsInRange(minionFocus) then
-                spells.E:Cast()
+                spells.E:Cast(minionFocus)
                 return
             end
         end
